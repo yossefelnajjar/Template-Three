@@ -150,6 +150,24 @@ h2 {
   /* because this section have 100px padding */
 }
 
+.dots {
+  background-image : url(../images/dots.png);
+  height           : 168px;
+  width            : 204px;
+  background-repeat: no-repeat;
+  position         : absolute;
+}
+
+.dots-up {
+  right: 0;
+  top  : 200px;
+}
+
+.dots-down {
+  left  : 0;
+  bottom: 200px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
